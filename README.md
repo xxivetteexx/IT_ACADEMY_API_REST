@@ -12,7 +12,7 @@ https://icanhazdadjoke.com/
 
 ### LEVEL 1:
 
-```diff - Exercice 1.```
+```- Exercice 1.```
 
 Develop a joke website with this functions:
 
