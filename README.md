@@ -4,11 +4,11 @@ Create a joke website, consuming data from a free API that requires no key.
 
 -   API URL:
 
-https://icanhazdadjoke.com/
+        https://icanhazdadjoke.com/
 
 -    Header to obtain the data in the format that interests us:
 
-'Accept': 'application/json'
+        'Accept': 'application/json'
 
 ### LEVEL 1:
 
@@ -16,10 +16,8 @@ https://icanhazdadjoke.com/
 
 Develop a joke website with this functions:
 
-
-- En entrar no mostrarà cap acudit. Apareixerà el títol i el botó de següent acudit“
-
-- En prémer el botó de “Següent acudit” es farà fetch a la API d'acudits i es mostrarà per consola l'acudit en qüestió.
+- When you entern any joke will appear. We can just see the title and the "following joke" button.
+- Tab the "following joke" button and a joke API fetch will be done. We can watch the joke by console.
 
 
 ```Exercice 2.```
