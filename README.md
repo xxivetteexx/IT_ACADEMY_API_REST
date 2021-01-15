@@ -3,9 +3,8 @@
 Create a joke website, consuming data from a free API that requires no key. 
 
 -   API URL:
-
         https://icanhazdadjoke.com/
-
+        
 -    Header to obtain the data in the format that interests us:
 
         'Accept': 'application/json'
