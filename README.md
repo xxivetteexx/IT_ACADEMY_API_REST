@@ -1,4 +1,4 @@
-# IT_ACADEMY_API_REST
+# IT ACADEMY API REST EXERCICE
 
 Create a joke website, consuming data from a free API that requires no key. 
 
