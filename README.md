@@ -13,6 +13,7 @@ https://icanhazdadjoke.com/
 ### LEVEL 1:
 
 Exercice 1.
+
 Develop a joke website with this functions:
 
 
@@ -22,5 +23,6 @@ Develop a joke website with this functions:
 
 
 Exercice 2.
+
 Modify the previous website in order that the joke appears on the website and not by console.
 
