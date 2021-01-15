@@ -12,7 +12,7 @@ https://icanhazdadjoke.com/
 
 ### LEVEL 1:
 
-Exercice 1
+Exercice 1.
 Develop a joke website with this functions:
 
 
@@ -21,6 +21,6 @@ Develop a joke website with this functions:
 - En prémer el botó de “Següent acudit” es farà fetch a la API d'acudits i es mostrarà per consola l'acudit en qüestió.
 
 
-Exercice 2
+Exercice 2.
 Modify the previous website in order that the joke appears on the website and not by console.
 
