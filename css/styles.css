@@ -1,0 +1,10 @@
+/* Afecta a tota la pantalla */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+    /* Amb això ens asegurem que funciona per tots els navegadors */
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}

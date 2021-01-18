@@ -17,10 +17,10 @@ fetch(url , {
  .then(data => console.log(data)) 
 
 // ******** EXERCICE 2 ********
-.then(json => {
-    let data = JSON.stringify(json)
-    document.getElementById('demo').innerHTML = data;
-  });
+// .then(json => {
+//     let data = JSON.stringify(json)
+//     document.getElementById('demo').innerHTML = data;
+//   });
 
 
 //The .CATCH() methodn is used to see if there's any problem
