@@ -23,3 +23,12 @@ Develop a joke website with this functions:
 
 Modify the previous website in order that the joke appears on the website and not by console.
 
+### LEVEL 2:
+
+```Exercice 3.```
+Add a meteorological API information and show it on the web. This API has to be addressed in the coverage, not by clicking a button.
+
+### LEVEL 3:
+
+```Exercice 4.```
+Add CSS styles to the website.
