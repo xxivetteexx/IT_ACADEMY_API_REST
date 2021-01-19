@@ -1,4 +1,5 @@
 const url = 'https://icanhazdadjoke.com/'; // Public URL API
+let notification= document.querySelector('#content');
 
 function generate(){
 //We use in Javascript the method fetch() in order to POST/GET/PUT/PATCH/DELETE data from the API provided. This method returns a PROMISE
@@ -12,7 +13,8 @@ function generate(){
         // ******** EXERCICE 1 ********
         .then(data => {
             console.log(data);
-            document.getElementById("content").innerHTML= `${data}`
+            notification.innerHTML= `${data.joke}` 
+            // document.getElementById("content").innerHTML= `${data}`
         })
     }
     //The .CATCH() method is used to see if there's any problem

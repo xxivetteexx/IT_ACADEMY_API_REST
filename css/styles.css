@@ -3,8 +3,101 @@
     margin:0px;
     padding:0px;
     box-sizing:border-box;
-
+    font-family: 'Open Sans', sans-serif;
     /* Amb això ens asegurem que funciona per tots els navegadors */
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
+   
+}
+
+body{
+    background:#6f7aec !important; 
+}
+
+aside{
+    background-color:#ffff;
+    border:none;
+    margin:0;
+    padding:3em;
+    border-radius: 50px;
+}
+.mainTitle, .title{
+    font-weight: 800;
+}
+.mainTitle{
+    color:#ffff;
+    font-weight: 800;
+    padding-left:48px;
+}
+.contentJoke p{
+    font-size: 2em;
+}
+
+/* Joke button */
+.joke button{
+    /* margin:4em; */
+    padding:0.4em 1em;
+    border-radius:18px;
+    border:none;
+    height: 3em;
+    background: #c7cfd5;
+    color:#ffff;
+    outline: none;
+    cursor:pointer;
+}
+
+.joke button:hover{
+    background: #dee3e9;
+}
+
+.jokeContent p{
+    font-weight: 3em;
+}
+
+
+/* ------------------ CSS for Weather ------------------  */
+
+.info{   
+    background-color:#ffff;
+    border:none;
+    padding:3em;
+    border-radius: 50px;
+}
+
+.city{
+    font-weight: 800;
+}
+.weather, .temp{
+    margin-top:40px;
+}
+.temp{
+    font-size:4em;
+}
+
+/* Search bar */
+
+.search-bar{
+    border:none;
+    padding:0.4em 1em;
+    border-radius:18px;
+    background: #c7cfd5;
+    color:white;
+    font-family: inherit;
+}
+
+.search button{
+    margin:0.5em;
+    border-radius: 50%;
+    border:none;
+    height: 2.5em;
+    width: 2.5em;
+    background: #c7cfd5;
+    color:#ffff;
+    outline: none;
+    cursor:pointer;
+}
+
+.search button:hover{
+    background: #dee3e9;
+    color:black;
 }
