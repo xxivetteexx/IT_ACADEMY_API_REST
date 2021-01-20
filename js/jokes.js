@@ -14,7 +14,6 @@ function generate(){
         .then(data => {
             console.log(data);
             notification.innerHTML= `${data.joke}` 
-            // document.getElementById("content").innerHTML= `${data}`
         })
     }
     //The .CATCH() method is used to see if there's any problem

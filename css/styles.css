@@ -21,7 +21,8 @@ aside{
     padding:3em;
     border-radius: 50px;
 }
-.mainTitle, .title{
+
+.mainTitle, .title, .dayTime{
     font-weight: 800;
 }
 .mainTitle{
@@ -35,15 +36,15 @@ aside{
 
 /* Joke button */
 .joke button{
-    /* margin:4em; */
+    margin:0;
     padding:0.4em 1em;
     border-radius:18px;
     border:none;
-    height: 3em;
     background: #c7cfd5;
     color:#ffff;
     outline: none;
     cursor:pointer;
+    font-size: 0.9em;
 }
 
 .joke button:hover{
@@ -101,3 +102,13 @@ aside{
     background: #dee3e9;
     color:black;
 }
+
+/* .weather.loading{
+    visibility: hidden;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color:#000000;
+} */
