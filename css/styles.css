@@ -14,6 +14,19 @@ body{
     background:#6f7aec !important; 
 }
 
+/* ------------------ CSS for Title ------------------  */
+
+.mainTitle, .title, .city{
+    font-weight: 800;
+}
+.mainTitle{
+    color:#ffff;
+    font-weight: 800;
+    padding-left:48px;
+}
+
+/* ------------------ CSS for Joke ------------------  */
+
 aside{
     background-color:#ffff;
     border:none;
@@ -22,14 +35,6 @@ aside{
     border-radius: 50px;
 }
 
-.mainTitle, .title, .dayTime{
-    font-weight: 800;
-}
-.mainTitle{
-    color:#ffff;
-    font-weight: 800;
-    padding-left:48px;
-}
 .contentJoke p{
     font-size: 2em;
 }
@@ -65,42 +70,9 @@ aside{
     border-radius: 50px;
 }
 
-.city{
-    font-weight: 800;
-}
-.weather, .temp{
-    margin-top:40px;
-}
 .temp{
-    font-size:4em;
-}
-
-/* Search bar */
-
-.search-bar{
-    border:none;
-    padding:0.4em 1em;
-    border-radius:18px;
-    background: #c7cfd5;
-    color:white;
-    font-family: inherit;
-}
-
-.search button{
-    margin:0.5em;
-    border-radius: 50%;
-    border:none;
-    height: 2.5em;
-    width: 2.5em;
-    background: #c7cfd5;
-    color:#ffff;
-    outline: none;
-    cursor:pointer;
-}
-
-.search button:hover{
-    background: #dee3e9;
-    color:black;
+    margin-top:40px;
+    font-size:5em;
 }
 
 /* .weather.loading{
