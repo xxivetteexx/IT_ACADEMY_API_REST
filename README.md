@@ -1,5 +1,7 @@
 # IT ACADEMY API REST EXERCICE
 
+<img width="1413" alt="Captura de Pantalla 2021-01-21 a les 22 28 38" src="https://user-images.githubusercontent.com/48102806/105414941-72454b80-5c38-11eb-9087-d14b859c9323.png">
+
 Create a joke website, consuming data from a free API that requires no key. 
 
 -   API URL:
