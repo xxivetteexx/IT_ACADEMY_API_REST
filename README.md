@@ -2,7 +2,8 @@
 
 <img width="1415" alt="Captura de Pantalla 2021-01-28 a les 20 25 03" src="https://user-images.githubusercontent.com/48102806/106188378-2f8af280-61a7-11eb-882d-21408ec9a652.png">
 
-###### Project URL : https://xxivetteexx.github.io/IT_ACADEMY_API_REST/
+###### PROJECT DEMO URL : https://xxivetteexx.github.io/IT_ACADEMY_API_REST/
+###### PROJECT DEMO WITH CODEANDBOX :https://codesandbox.io/s/silly-cannon-w7kjg
 <hr>
 
 ### THE EXERCICE:
