@@ -1,6 +1,6 @@
 # IT ACADEMY API REST EXERCICE
 
-<img width="1413" alt="Captura de Pantalla 2021-01-21 a les 22 28 38" src="https://user-images.githubusercontent.com/48102806/105414941-72454b80-5c38-11eb-9087-d14b859c9323.png">
+<img width="1415" alt="Captura de Pantalla 2021-01-28 a les 20 25 03" src="https://user-images.githubusercontent.com/48102806/106188378-2f8af280-61a7-11eb-882d-21408ec9a652.png">
 
 ###### Project URL : https://xxivetteexx.github.io/IT_ACADEMY_API_REST/
 <hr>
