@@ -84,7 +84,7 @@ function printWeather(information) {
 
     // Selected data from the API displayed on the website
 
-    city.innerHTML = `${information.data[0].city_name}`;
+    city.innerHTML =  "<b>Weather in</b> " + `${information.data[0].city_name}`;
     temperature.innerHTML = `${information.data[0].temp}` + "°C";
     iconography.innerHTML = `${information.data[0].weather.icon}`;
     descript.innerHTML = `${information.data[0].weather.description}`;
