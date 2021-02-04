@@ -1,92 +1,93 @@
-// -- API WEATHER URL -- //
-const apiUrl = `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=${apiKey}&include=minutely`;  
-
 // -- API KEY -- //
 const apiKey = 'f424ea351c4a4b3fa0c192764745a865';
 
+// -- Variables declared -- //
+let long;
+let lat;
+let city;
+let temperature;
+let iconography;
+let descript;
+let humidity;
+let wind;
 
-// MAIN function
-window.addEventListener('load', ()=> {
+// -- Listener -- //
+//A window will be open when the page is loading and will ask for geolocation permission
+window.addEventListener('load', () => {
+    loadWeather();
+});
 
-    // 1. Get DOM elemements in order to  print response 
+// Main function
+async function loadWeather() {
+
+    // 1. Get DOM elemements in order to  print response
     getDOMElements()
 
     // 2. Get location
-    let location = await getPosition()
+    await getPosition()
 
     // 3. Get Weather
-    let weather = await getWeather(location)
+    let information = await getWeather()
 
     // 4. Print response
-    printWeather(weather)
-});
+    printWeather(information)
 
+}
 
-// 1. Function where we set our variables.
-function getDOMElements(){
-    let long; 
-    let lat;
-    let city            = document.querySelector('.city');
-    let temperature     = document.querySelector('.temp');
-    let iconography     = document.querySelector('.icon');
-    let descript        = document.querySelector('.description');
-    let humidity        = document.querySelector('.humidity');
-    let wind            = document.querySelector('.wind');
-    }
+// 1. Linking all the variables with HTML in this function.
+function getDOMElements() {
+    city = document.querySelector('.city');
+    temperature = document.querySelector('.temp');
+    iconography = document.querySelector('.icon');
+    descript = document.querySelector('.description');
+    humidity = document.querySelector('.humidity');
+    wind = document.querySelector('.wind');
+}
 
-// 2. Async function for get the geolocation of the user and start running the API
-async function getPosition(){
+// 2. getPosition is already an async function because it uses a Promise (Promises are async). We get the geolocation of the user that allows start running the API
+function getPosition() {
     return new Promise(function (resolve, reject) {
-        navigator.geolocation.getCurrentPosition(resolve, reject);
-        });
-}   
-    
-getPosition()
-    .then((position ) => {
-        long        = position.coords.longitude;
-        lat         = position.coords.latitude;
-        console.log(position);
-    })
-    
-    .catch((err) => {
-      console.error(err.message);
+        function success(position) {
+            long = position.coords.longitude;
+            lat = position.coords.latitude;
+            console.log(position);
+            resolve();
+        };
+        function error(err) {
+            console.warn('ERROR(' + err.code + '): ' + err.message);
+            reject();
+        };
+        navigator.geolocation.getCurrentPosition(success, error);
     });
+}
 
 // 3. Async function for get the data from the API
-async function getWeather(location) {
-    let response = await fetch(apiUrl, {
-          method: 'GET',   // The GET operation is defined because we want to SEE the data from the API
-          headers: {
-              'Accept': 'application/json',
-          }
-  })
+async function getWeather() {
+    // -- API WEATHER URL -- //
+    let apiUrl = `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${long}&key=${apiKey}&include=minutely`;
+    let response = await fetch(apiUrl);
     let data = await response.json()
     return data;
-  }
-  
-  getWeather()
-    .then(data => console.log(data);
+}
 
-
-
-// 4.  Async function for print the selected data from the API
-function printWeather(weather){
+// 4.  Async function will print the selected data from the API we used the API data stored in "information variable"
+function printWeather(information) {
     //Getting the selected data from the API
-    const city_name            = data.data[0].city_name;
-    const icon                 = data.data[0].weather.icon;
-    const description          = data.data[0].weather.description;
-    const temp                 = data.data[0].temp;
-    const rh                   = data.data[0].rh; 
-    const wind_spd             = data.data[0].wind_spd;
-    // console.log(city_name,icon,description,temp,rh,wind_spd);
+    const city_name = information.data[0].city_name;
+    const icon = information.data[0].weather.icon;
+    const description = information.data[0].weather.description;
+    const temp = information.data[0].temp;
+    const rh = information.data[0].rh;
+    const wind_spd = information.data[0].wind_spd;
+    console.log(city_name,icon,description,temp,rh,wind_spd);
 
 
     // Selected data from the API displayed on the website
 
-    city.innerHTML           = `${data.data[0].city_name}`;
-    temperature.innerHTML    = `${data.data[0].temp}` + "°C";
-    iconography.innerHTML    = `${data.data[0].weather.icon}`;
-    descript.innerHTML       = `${data.data[0].weather.description}`;
-    humidity.innerHTML       = "<b>Humidity</b> " + `${data.data[0].rh}` + "%";
-    wind.innerHTML           = "<b>Wind speed</b> " + `${data.data[0].wind_spd}` + "km/h";     
+    city.innerHTML = `${information.data[0].city_name}`;
+    temperature.innerHTML = `${information.data[0].temp}` + "°C";
+    iconography.innerHTML = `${information.data[0].weather.icon}`;
+    descript.innerHTML = `${information.data[0].weather.description}`;
+    humidity.innerHTML = "<b>Humidity</b> " + `${information.data[0].rh}` + "%";
+    wind.innerHTML = "<b>Wind speed</b> " + `${information.data[0].wind_spd}` + "km/h";
 }
