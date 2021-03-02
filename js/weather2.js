@@ -87,7 +87,7 @@ function printWeather(information) {
     city.innerHTML =  "<b>Weather in</b> " + `${information.data[0].city_name}`;
     temperature.innerHTML = `${information.data[0].temp}` + "°C";
     iconography.innerHTML = `${information.data[0].weather.icon}`;
-    descript.innerHTML = `${information.data[0].weather.description}`;
+    descript.innerHTML =`${information.data[0].weather.description}`;
     humidity.innerHTML = "<b>Humidity</b> " + `${information.data[0].rh}` + "%";
     wind.innerHTML = "<b>Wind speed</b> " + `${information.data[0].wind_spd}` + "km/h";
 }
