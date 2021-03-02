@@ -1,6 +1,6 @@
 # IT ACADEMY API REST EXERCICE
 
-<img width="1415" alt="Captura de Pantalla 2021-01-28 a les 20 25 03" src="https://user-images.githubusercontent.com/48102806/106188378-2f8af280-61a7-11eb-882d-21408ec9a652.png">
+<img width="1440" alt="Captura de Pantalla 2021-03-02 a les 11 11 01" src="https://user-images.githubusercontent.com/48102806/109633110-082d9980-7b48-11eb-9179-8988e22d6454.png">
 
 ###### PROJECT DEMO URL : https://xxivetteexx.github.io/IT_ACADEMY_SP5_API_REST/
 ###### PROJECT DEMO WITH CODEANDBOX :https://codesandbox.io/s/silly-cannon-w7kjg
