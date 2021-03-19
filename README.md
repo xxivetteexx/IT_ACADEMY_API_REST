@@ -52,5 +52,5 @@ Add CSS styles to the website.
 * Postman
 
 ## Author :raising_hand_woman:
-[ivette](https://github.com/xxivetteexx)
+[Ivette](https://github.com/xxivetteexx)
 
