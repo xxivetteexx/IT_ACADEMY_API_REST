@@ -1,5 +1,6 @@
-# IT ACADEMY API REST EXERCICE
+# IT ACADEMY SP5 API REST EXERCICE
 
+## Weather and Joke API
 ![codeeee-02](https://user-images.githubusercontent.com/48102806/111804612-88862580-88d0-11eb-9694-b98add3404b2.png)
 
 
