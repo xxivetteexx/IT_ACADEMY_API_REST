@@ -2,11 +2,11 @@
 
 <img width="1440" alt="Captura de Pantalla 2021-03-02 a les 11 11 01" src="https://user-images.githubusercontent.com/48102806/109633110-082d9980-7b48-11eb-9179-8988e22d6454.png">
 
-## [Web](https://xxivetteexx.github.io/IT_ACADEMY_SP5_API_REST) 💻
-## [Codesandbox](https://codesandbox.io/s/silly-cannon-w7kjg) ⌨️
+### [Web](https://xxivetteexx.github.io/IT_ACADEMY_SP5_API_REST) 💻
+### [Codesandbox](https://codesandbox.io/s/silly-cannon-w7kjg) ⌨️
 
 
-### Getting started 🚀:
+## Getting started 🚀:
 
 Create a joke website, consuming data from a free API that requires no key. 
 
