@@ -1,6 +1,7 @@
 # IT ACADEMY API REST EXERCICE
 
-<img width="1440" alt="Captura de Pantalla 2021-03-02 a les 11 11 01" src="https://user-images.githubusercontent.com/48102806/109633110-082d9980-7b48-11eb-9179-8988e22d6454.png">
+![codeeee-02](https://user-images.githubusercontent.com/48102806/111804612-88862580-88d0-11eb-9694-b98add3404b2.png)
+
 
 ### [Web](https://xxivetteexx.github.io/IT_ACADEMY_SP5_API_REST) 💻
 ### [Codesandbox](https://codesandbox.io/s/silly-cannon-w7kjg) ⌨️
