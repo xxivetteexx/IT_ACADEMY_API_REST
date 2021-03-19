@@ -19,7 +19,7 @@ Create a joke website, consuming data from a free API that requires no key.
 
 ### Level :one: 
 
-```Exercice 1.```
+```Exercice 1```
 
 Develop a joke website with this functions:
 
@@ -27,19 +27,19 @@ Develop a joke website with this functions:
 - Tab the "following joke" button and a joke API fetch will be done. We can watch the joke by console.
 
 
-```Exercice 2.```
+```Exercice 2```
 
 Modify the previous website in order that the joke appears on the website and not by console.
 
 ### Level :two:
 
-```Exercice 3.```
+```Exercice 3```
 
 Add a meteorological API information and show it on the web. This API has to be addressed in the coverage, not by clicking a button.
 
 ### Level :three:
 
-```Exercice 4.```
+```Exercice 4```
 
 Add CSS styles to the website.
 
