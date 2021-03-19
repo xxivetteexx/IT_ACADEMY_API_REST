@@ -6,7 +6,7 @@
 ### [Codesandbox](https://codesandbox.io/s/silly-cannon-w7kjg) ⌨️
 
 
-## Getting started 🚀:
+## Getting started 🚀
 
 Create a joke website, consuming data from a free API that requires no key. 
 
@@ -17,7 +17,7 @@ Create a joke website, consuming data from a free API that requires no key.
 
         'Accept': 'application/json'
 
-### Level 1:
+### Level :one: 
 
 ```Exercice 1.```
 
@@ -31,13 +31,13 @@ Develop a joke website with this functions:
 
 Modify the previous website in order that the joke appears on the website and not by console.
 
-### Level 2:
+### Level :two:
 
 ```Exercice 3.```
 
 Add a meteorological API information and show it on the web. This API has to be addressed in the coverage, not by clicking a button.
 
-### Level 3:
+### Level :three:
 
 ```Exercice 4.```
 
@@ -51,6 +51,6 @@ Add CSS styles to the website.
 * Javascript
 * Postman
 
-## Author ✒️
+## Author :raising_hand_woman:
 [ivette](https://github.com/xxivetteexx)
 
